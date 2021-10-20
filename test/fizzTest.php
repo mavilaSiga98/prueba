@@ -23,13 +23,7 @@ class fizzTest extends TestCase
     {
         $fizz = new Fizz;
 
-        $this->assertEquals('fizz', $fizz->execute(3));
-
         $this->assertEquals('buzz', $fizz->execute(5));
-
-        $this->assertEquals('fizzbuzz', $fizz->execute(15));
-
-        $this->assertEquals(1, $fizz->execute(1));
     }
 
 }
