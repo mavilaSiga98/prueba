@@ -1,5 +1,7 @@
 {
     "name": "mavila/prueba_phpunit",
+    "description": "Es una prueba",
+    "license": "MIT",
     "require-dev": {
         "phpunit/phpunit": "^8.5"
     },
