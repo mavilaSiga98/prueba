@@ -11,7 +11,7 @@ class Fizz
         }
 
         if($num%3==0){
-            return 'fzz';
+            return 'fizz';
         }
 
         if($num%5==0){
