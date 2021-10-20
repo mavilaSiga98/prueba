@@ -22,7 +22,6 @@ class fizzTest extends TestCase
     public function testBuzz()
     {
         $fizz = new Fizz;
-
         $this->assertEquals('buzz', $fizz->execute(5));
     }
 
